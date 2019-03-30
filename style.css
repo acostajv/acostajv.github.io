@@ -15,5 +15,5 @@ body {
 .date {
   font-style: italic;
   float: right;
-  color: #483D8B;
+  color: red;
 }
