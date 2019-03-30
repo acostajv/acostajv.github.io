@@ -12,9 +12,12 @@ body {
   margin: 50px 200px 50px 200px;
 }
 
-span.date {
-  display: block;
+.job{
+  float: left;
+}
+
+.date {
   font-style: italic;
-  text-align: right;
+  float: right;
   color: #483D8B;
 }
