@@ -13,6 +13,7 @@ body {
 }
 
 span.date {
+  display: block;
   font-style: italic;
   text-align: right;
   color: #483D8B;
