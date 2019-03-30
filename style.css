@@ -12,7 +12,7 @@ body {
   margin: 50px 200px 50px 200px;
 }
 
-.date {
+span.date {
   font-style: italic;
   text-align: right;
   color: #483D8B
