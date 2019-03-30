@@ -1,9 +1,10 @@
 .header {
   font-size: 20px;
+  border-bottom-style: ridge;
+  border-bottom-width: thick;
 }
 
 #contactinfo {
-  border-bottom-style: double;
 }
 
 body {
@@ -14,6 +15,6 @@ body {
 .date {
   font-style: italic;
   text-align: right;
-  color: #483D8B;
+  color: #483D8B
   border-bottom-style: double;
 }
