@@ -12,6 +12,10 @@ body {
   margin: 50px 200px 50px 200px;
 }
 
+.job title{
+  border-bottom-style: double;
+}
+
 .date {
   font-style: italic;
   float: right;
