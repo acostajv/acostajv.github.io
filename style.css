@@ -12,10 +12,6 @@ body {
   margin: 50px 200px 50px 200px;
 }
 
-.job{
-  float: left;
-}
-
 .date {
   font-style: italic;
   float: right;
