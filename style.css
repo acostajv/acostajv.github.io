@@ -12,5 +12,6 @@ body {
 
 .date {
   font-style: italic;
+  text-align: left;
   color: blue;
 }
