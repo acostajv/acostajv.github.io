@@ -14,4 +14,6 @@ body {
   font-style: italic;
   text-align: right;
   color: blue;
+  border-bottom-style: double;
+
 }
