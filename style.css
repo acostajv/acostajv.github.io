@@ -13,7 +13,7 @@ body {
 .date {
   font-style: italic;
   text-align: right;
-  color: blue;
+  color: #483D8B;
   border-bottom-style: double;
 
 }
