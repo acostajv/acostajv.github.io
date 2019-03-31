@@ -6,9 +6,8 @@ img {
 
 .name {
   font-size: 28px;
-  border-bottom-style: inset;
+  border-bottom-style: ridge;
   border-bottom-width: 7px;
-  border-color: #483D8B;
 }
 
 .header {
@@ -23,7 +22,7 @@ body {
 h4 {
   margin-top: 50px;
   border-bottom-style: double;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .date {
