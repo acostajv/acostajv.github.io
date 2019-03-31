@@ -4,6 +4,10 @@ img {
   margin-right: 25px;
 }
 
+.name {
+  font-size: 28px;
+}
+
 h3 {
   border-bottom-style: ridge;
   border-bottom-width: 5px;
