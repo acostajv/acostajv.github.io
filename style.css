@@ -8,6 +8,7 @@ img {
   font-size: 28px;
   border-bottom-style: ridge;
   border-bottom-width: 7px;
+  border-color: black;
 }
 
 .header {
