@@ -8,7 +8,7 @@ img {
   font-size: 28px;
   border-bottom-style: ridge;
   border-bottom-width: 7px;
-  border-color: black;
+  border-color: #483D8B;
 }
 
 .header {
@@ -23,7 +23,7 @@ body {
 h4 {
   margin-top: 50px;
   border-bottom-style: double;
-  padding-bottom: 100px;
+  padding-bottom: 25px;
 }
 
 .date {
