@@ -39,13 +39,13 @@ input[type='checkbox'] {
 .lbl-toggle {
   display: block;
   font-weight: bold;
-  background: #483D8B;
+  background: #F5FFFA;
   cursor: pointer;
   transition: all 0.25s ease-out;
 }
 
 .lbl-toggle:hover {
-  color: #7C5A0B;
+  color: #483D8B;
 }
 
 .lbl-toggle::before {
