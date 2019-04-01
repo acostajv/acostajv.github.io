@@ -39,11 +39,9 @@ input[type='checkbox'] {
 .lbl-toggle {
   display: block;
   font-weight: bold;
-  padding: 1rem;
   color: #A77B0E;
   background: #FAE042;
   cursor: pointer;
-  border-radius: 7px;
   transition: all 0.25s ease-out;
 }
 
@@ -60,7 +58,6 @@ input[type='checkbox'] {
   border-left: 5px solid currentColor;
 
   vertical-align: middle;
-  margin-right: .7rem;
   transform: translateY(-2px);
 
   transition: transform .2s ease-out;
