@@ -5,7 +5,7 @@ img {
 }
 
 .name {
-  font-size: 50px;
+  font-size: 28px;
   border-bottom-style: ridge;
   border-bottom-width: 7px;
 }
@@ -39,7 +39,7 @@ input[type='checkbox'] {
 .lbl-toggle {
   display: block;
   font-weight: bold;
-  background: #FAE042;
+  background: #483D8B;
   cursor: pointer;
   transition: all 0.25s ease-out;
 }
