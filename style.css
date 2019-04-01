@@ -51,10 +51,6 @@ input[type='checkbox'] {
 .lbl-toggle::before {
   display: inline-block;
 swedaz
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-
   vertical-align: middle;
   transform: translateY(-2px);
 
@@ -105,13 +101,8 @@ swedaz
 .lbl-toggle2::before {
   display: inline-block;
 swedaz
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-
   vertical-align: middle;
   transform: translateY(-2px);
-
   transition: transform .2s ease-out;
 }
 
