@@ -50,7 +50,7 @@ input[type='checkbox'] {
 
 .lbl-toggle::before {
   display: inline-block;
-
+swedaz
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-left: 5px solid currentColor;
@@ -86,6 +86,60 @@ input[type='checkbox'] {
 }
 
 .toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.lbl-toggle2 {
+  display: block;
+  font-weight: bold;
+  background: #FAE042;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle2:hover {
+  color: #7C5A0B;
+}
+
+.lbl-toggle2::before {
+  display: inline-block;
+swedaz
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+
+  vertical-align: middle;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+
+.collapsible2-content .content-inner2 {
+  background: rgba(250, 224, 66, .2);
+  border-bottom: 1px solid rgba(250, 224, 66, .45);
+
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem 1rem;
+}
+
+.collapsible2-content {
+  max-height: 0px;
+  overflow: hidden;
+
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle2:checked + .lbl-toggle2 + .collapsible2-content {
+  max-height: 350px;
+}
+
+.toggle2:checked + .lbl-toggle2::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.toggle2:checked + .lbl-toggle2 {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
